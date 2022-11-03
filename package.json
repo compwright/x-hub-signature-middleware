@@ -1,0 +1,43 @@
+{
+  "name": "x-hub-signature-middleware",
+  "version": "1.0.0",
+  "description": "Express middleware for verifying webhooks with X-Hub-Signature",
+  "keywords": [
+    "express",
+    "x-hub",
+    "x-hub-signature",
+    "xhub",
+    "signature",
+    "middleware",
+    "facebook",
+    "realtime",
+    "webhook"
+  ],
+  "author": {
+    "name": "Jonathon Hill"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/compwright/x-hub-signature-middleware",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/compwright/x-hub-signature-middleware.git"
+  },
+  "bugs": {
+    "url": "https://github.com/compwright/x-hub-signature-middleware/issues"
+  },
+  "main": "src/",
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "http-errors": "^1.8.0",
+    "x-hub-signature": "^2.1.1"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jest": "latest",
+    "standard": "latest",
+    "standard-version": "latest"
+  }
+}
